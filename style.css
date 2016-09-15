@@ -1,0 +1,197 @@
+body {
+  background-color: #66a5ad;
+}
+
+p {
+  color: #f2f2f2;
+  text-align: center;
+  font-family: Lucida Console;
+  
+}
+
+#portfolio {
+  background-color: #003b46;
+  margin: 10% 10% -5% 10%;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#about {
+  width: 80%;
+  background-color: #003b46;
+  margin: 10% 10% -5% 10%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+input {
+  width: 98%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-style: groove;
+  background-color: #0d0d0d;
+  color: white;
+  border-width: 1px;
+}
+
+#portfolio-pix {
+//  margin: 3% 10% 10% 10%;
+  padding: 1% 3% 3% 3%;
+}
+#portfolio-pix li a{
+  display: block;
+  text-decoration: none;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 8px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+h3{
+  float: right;
+  color: white;
+  
+}
+h1 {
+  padding: 50px 50px 50px 50px;
+  color: #f2f2f2;
+  text-shadow: 2px 2px #666666;
+  font-family: Lucida Console;
+  text-indent: 50px;
+}
+
+h2 {
+  color: #f2f2f2;
+  text-shadow: 2px 2px #666666;
+  font-family: Lucida Console;
+  text-align: center;
+  padding: 30px 0 0px 0;
+}
+
+#email {
+  text-align: center;
+  background-color: #003b46;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name {
+  text-align: center;
+ background-color: #003b46;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#message {
+  text-align: center;
+  width: 98%;
+  box-sizing: border-box;
+  border-style: groove;
+  background-color: #003b46;
+  color: white;
+  border-width: 1px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#navBar{
+  background-color: #021c1e;
+}
+#menu{
+  background-color: #021c1e;
+}
+#menu li a {
+  display: block;
+  color: white;
+  border-radius: 5px;
+  background-color: #021c1e;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+#portfolioText{
+  padding: 10% 0 0 0;
+}
+
+form {
+  color: white;
+  background-color:#003b46;
+  margin: 10% 10% -5% 10%;
+  padding: 5px 50px 50px 50px;
+  border-radius: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.social {
+  width: auto;
+  height: 50px;
+  list-style-type: none;
+  display: inline-block;
+  position: fixed;
+    
+}
+#linkedIn {
+  border-radius: 5px;
+  width: 40px;
+ margin: -20% 0 0 0;
+  padding: 20px;
+  background: url(http://res.cloudinary.com/adriandevcode/image/upload/v1465565666/SOaroTX_k995qz.png) -395px -50px;
+  transition-duration: 0.2s;
+}
+
+#gitHub {
+  border-radius: 5px;
+  width: 40px;
+  margin: -20% 0 0 0;
+  padding: 20px;
+  background: url(http://res.cloudinary.com/adriandevcode/image/upload/v1465565666/SOaroTX_k995qz.png) -452px -50px;
+  transition-duration: 0.2s;
+}
+
+#menu li a:hover {
+  background-color: #003b46;
+  transition-duration: 0.5s;
+}
+#portfolio-pix li a:hover{
+  background: #021c1e;
+  transition-duration: 0.5s;
+}
+#gitHub:hover {
+  background: url(http://res.cloudinary.com/adriandevcode/image/upload/v1465565666/SOaroTX_k995qz.png) -452px -125px;
+}
+
+#linkedIn:hover {
+  background: url(http://res.cloudinary.com/adriandevcode/image/upload/v1465565666/SOaroTX_k995qz.png) -395px -126px;
+}
+
+#button1 {
+  background-color: #003b46;
+  border:0.5px solid #021c1e;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button1:hover {
+  background-color: #021c1e;
+}
+
+#menu li a.active {
+  background-color: #003b46;
+}
+
+#footer {
+ width: auto;
+  padding: 6px;
+  border-radius: 5px;
+  margin: 7% 10% 0 10%;
+}
