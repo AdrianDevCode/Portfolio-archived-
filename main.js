@@ -1,0 +1,20 @@
+ $(document).ready(function() {
+ 
+   $("#menu a").on("click", function(e) {
+     e.preventDefault();
+
+     var target = this.hash;
+     var $target = $(target);
+
+     $('html, body').stop().animate({
+       'scrollTop': $target.offset().top
+     }, 900, 'swing', function() {
+       window.location.hash = target;
+     });
+   });
+   $('#menu li a').click(function(e) {
+     $('a').removeClass('selected active');
+     $(this).addClass('selected active');
+   });
+   $('div :input').fancyInput();
+ });
